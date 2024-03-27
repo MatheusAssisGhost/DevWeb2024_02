@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Jockey+One&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.bg{
+    background-image: url(gaming.jpg);
+    background-size: 110%;
+    background-position: auto auto auto auto;
+    background-repeat: no-repeat;   
+}
+
+#background{
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    padding: 20px;
+    height: 200px;
+}
+
+h1{
+    text-align: center;
+    font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+
+.box_nav{
+    background-color: #50a1a2a9;
+    border-radius: 50px;
+}
+
+.nav :hover{
+    background-color: rgba(255, 255, 255, 0.637);
+    outline: 2px solid white;
+    border-radius: 100px;
+}
+
+.nav{
+    font-family: "Jockey One", sans-serif;
+     font-weight: 400;
+    font-style: normal;
+    gap:40px;
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+    display: flexbox;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+
+.cabecalho{
+    display: flexbox;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#box_form{
+    display: flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 700px;
+    margin: auto auto;
+}
+
+.div_form{
+    display: flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #4F7678;
+    border-radius: 20px;
+}
+
+
+
+.caixa_form{
+    padding: 10px;
+    border: 1px solid white;
+    display: flexbox;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 300px;
+    height: 600px;
+    gap: 20px;
+    background-color: #50A0A2;
+}
+
+form{
+    display: flexbox;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.preencha{
+    color: white;
+}
+
+.box_artigo {
+    display: flexbox;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: baseline;
+    background-color: #4F7678;
+    width: 600px;
+    height: 500px;
+    border-radius: 40px;
+}
+
+.box_paragrafo_artigo{
+    margin-left: 10px;
+    margin: auto auto auto auto;
+    padding: 20px;
+    background-color: #50A0A2;
+
+}
+
+h3{
+    color: white;
+}
+
+.chamada{
+    padding: 20px;
+    font-family: "Spectral", serif;
+    font-weight: 200;
+    font-style: normal;
+    display: flexbox;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    -webkit-text-stroke-color: white ;
+}
+
+#box_main{
+    display: flex;
+    display: flexbox;
+    justify-content: space-between;
+}
