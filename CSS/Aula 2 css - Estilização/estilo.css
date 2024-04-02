@@ -1,0 +1,32 @@
+@charset 'utf-8';
+
+body{
+    background-color: #e6e6fa;
+    color: #191970;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+head{
+    background-color: #696FE6;
+    color: white;
+
+}
+
+article{
+    background-color: #696FE6;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+}
+
+h1{
+    text-align: right;
+    padding-right: 50px;
+}
+
+p{
+    letter-spacing: 2px;
+    background-color: #b46ae6a9;
+    box-shadow: 2px 2px 5px black;
+    padding-left: 15px;
+}
