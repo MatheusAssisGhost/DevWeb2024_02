@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+
+body{
+    background-color: #B1D5E0;
+    background-size: 100%;
+}
+
+header{
+    display: flexbox;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    display: flexbox;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    padding-left: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    background-color: #E0B1BE ;
+}
+h2{
+    text-align: center;
+    font-family: "Sue Ellen Francisco", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    background-color: #006C8F;
+    color: white;
+}
+main{
+    width: 600px;
+    height: 200px;
+    display: flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E0B1BE;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.paragrafo{
+    display: flexbox;
+    display: flex;
+    justify-content: center;
+    color: white;
+    box-shadow: black ;
+}
+
+.banner{
+    display: flexbox;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer{
+    opacity: 80%;
+    background-color: white;
+    text-align: center;
+}

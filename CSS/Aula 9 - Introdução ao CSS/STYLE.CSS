@@ -1,0 +1,37 @@
+body{
+    background-color: #7AC0CF;
+}
+
+.box-header{
+    border: 1px solid white;
+    background-color: #7C9DA5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 50px ;
+}
+
+.box_section{
+    background: #69E0FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 10px 6px black;
+}
+
+h2{
+    color: white;
+    text-shadow: 2px 2px 6px black;
+    font-size: 35px;
+}
