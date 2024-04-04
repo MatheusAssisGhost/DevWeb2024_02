@@ -1,0 +1,51 @@
+@charset 'utf-8';
+
+body{
+    background-image: url(bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.figure{
+    background-color: white;
+    width: 330px;
+    padding: 5px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 5px black;
+}
+
+.image{ 
+    width: 320px;
+    border: 2px solid white;
+}
+
+.pin{
+    max-width: 30px;
+    height: 30px;
+    margin: auto;
+    position: absolute;
+}
+
+figcaption{
+    text-align: center;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+}
