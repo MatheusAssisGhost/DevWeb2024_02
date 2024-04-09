@@ -12,7 +12,7 @@ html{
 body{
     display: flex;
     flex-direction: column;
-    background-color: white ;
+    background-color: rgb(208, 208, 208) ;
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -45,12 +45,14 @@ h3{
 }
 
 .box_container{
-    background-color: #9ec5eb64;
+    background-color: rgb(208, 208, 208);
     border-radius: 20px;
     height: 50vh;
     display: flex;
     justify-content: left;
     padding: 3%;
+    border: 1px solid black;
+    margin: 2vw;
 }
 
 .box_main{
