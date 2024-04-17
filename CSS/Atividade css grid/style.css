@@ -1,3 +1,6 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Jacquarda+Bastarda+9&family=Jersey+10&family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap');
+
 body {
     background-image: url(bg.webp);
     background-size: 100%;
@@ -6,34 +9,77 @@ body {
 }
 
 .cabecalho {
-    background-image: linear-gradient(to right, purple, pink, violet);
+    background-image: linear-gradient(to right, purple, rgb(93, 0, 83), rgb(252, 0, 252));
     border-radius: 20px;
     text-align: center;
-    color: rgb(255, 0, 255);
-    text-shadow: 3px 3px 5px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    width: 40vw;
+    height: 10vh;
+    margin: 2% auto auto auto;
+    box-shadow: 4px -2px 8px 2px white;
+}
+
+h1 {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 180%;
+}
+
+h1:hover{
+    color: darkorchid;
+}
+
+@media{
+    from: 
 }
 
 .div_main {
+    display: flex;
     justify-content: space-around;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 25% 25% 25% 25%;
 }
 
 .container {
-    display: grid;
-    grid-auto-flow: row;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+    flex-wrap: wrap;
+    row-gap: 10vh;
+    padding: 2vw;
+}
+
+h3 {
+    background-color: rgb(253, 99, 125);
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .card {
     background-color: rgba(255, 255, 255, 0.682);
-    width: 20vw;
+    width: 25vw;
     max-width: 230px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 3px purple;
+    box-shadow: 5px 5px 3px black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+:hover.card {
+    transform: scale(120%);
+    transition: all 0.2s ease-in;
+    box-shadow: 5px 5px 6px white;
 }
 
 img {
     max-width: 200px;
     width: 20vw;
+    border-radius: 10px;
 }
