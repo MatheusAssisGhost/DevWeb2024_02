@@ -1,0 +1,133 @@
+body {
+    background-image: url(gaming.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.div-header {
+    background-color: darkgrey;
+    border: 2px inset black;
+    width: 50vw;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 5px 5px 6px black;
+    justify-items: center;
+    margin: auto;
+}
+
+:hover.div-header {
+    box-shadow: 6px 6px 6px white;
+    transform: scale(110%);
+}
+
+:hover.div_section {
+    box-shadow: 6px 6px 6px white;
+    transform: scale(110%);
+}
+
+:hover.container {
+    box-shadow: 6px 6px 6px white;
+    transform: scale(110%);
+}
+
+.cabecalho {
+    background-color: lightgray;
+}
+
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 150%;
+}
+
+.div_main {
+    margin: 3% 5% auto auto;
+    background-color: rgba(245, 245, 245, 0.653);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
+    width: 80vw;
+    height: 90vh;
+    padding: 5%;
+}
+
+.titulo2{
+    background-color: white;
+    color: black;
+    height: 7vw;
+    text-align: center;
+    max-height: 40px;
+}
+p{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-area: 'main . main';
+    width: 20vw;
+    height: 20vw;
+    border: 2px inset black;
+    box-shadow: 5px 5px 6px black;
+    background-image: url(foto3.jfif);
+    background-size: 100%;
+    color: white;
+}
+
+.div_section {
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    border: 2px outset black;
+    order: 3;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(foto2.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    box-shadow: 5px 5px 6px black;
+}
+
+.foto {
+    width: 20vw;
+    border-radius: 150px;
+    box-shadow: 5px 5px 6px black;
+
+}
+
+@media(max-width:768px) {
+    .div_main {
+        width: 80vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2vh;
+        margin: 2vh auto auto auto;
+    }
+
+    .container {
+        min-width: 200px;
+        min-height: 200px;
+    }
+
+    .foto {
+        min-width: 200px;
+        min-height: 200px;
+    }
+
+    .div_section {
+        min-width: 200px;
+        min-height: 200px;
+    }
+
+}
