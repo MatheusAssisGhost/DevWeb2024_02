@@ -1,0 +1,111 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Jacquarda+Bastarda+9&family=Jersey+10&family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap');
+
+
+body {
+    background-image: url(bg.png);
+    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.box_header {
+    background-color: rgba(128, 128, 128, 0.871);
+    text-align: center;
+    width: 50vw;
+    max-width: 400px;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh auto auto auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px white;
+    border: 2px inset black;
+    color: white;
+}
+
+.knight {
+    display: flex;
+    float: right;
+    position: fixed;
+    width: 20vw;
+}
+
+
+.titulo {
+    text-shadow: 2px 2px 3px black;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 180%;
+}
+
+:hover.box_header {
+    transform: scale(110%);
+    box-shadow: 3px 3px 6px white;
+    color: purple;
+}
+
+.box_titulo {
+    background-color: rgba(128, 128, 128, 0.527);
+    text-align: center;
+    width: 70vw;
+    max-width: 600px;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh auto auto auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px white;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    margin-bottom: 5vh;
+    margin-top: 10vh;
+}
+
+.box_main {
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 20px;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 1 1fr 1fr 1fr;
+    grid-template-rows: 230px 230px 230px 230px 100;
+    gap: 30px;
+    justify-items: center;
+    justify-content: space-around;
+    width: 60vw;
+    margin: auto;
+    border: 3px inset black;
+    box-shadow: 5px 5px 2px black;
+}
+
+h3 {
+    background-color: rgb(255, 255, 255);
+    width: 20vw;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px black;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120%;
+    padding: 2vh;
+}
+
+.card {
+    width: 20vw;
+    max-width: 200px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+    margin: 2vw;
+    border: 5px inset white;
+}
+
+:hover.card {
+    transform: scale(130%);
+    transition: all 0.2s ease-in;
+    box-shadow: 3px 3px 6px white;
+}
