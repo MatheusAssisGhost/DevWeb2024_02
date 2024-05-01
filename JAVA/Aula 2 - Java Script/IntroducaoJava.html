@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        Claro, vou te explicar o básico do JavaScript, que é uma linguagem de programação muito usada para adicionar interatividade às páginas da web. Aqui estão alguns conceitos fundamentais: <br>
+
+**1. Variáveis:** <br>
+São como caixas onde você pode guardar dados. No JavaScript, você pode criar uma variável usando `let` ou `const`. <br>
+
+```javascript <br>
+let nome = 'Maria'; <br>
+const idade = 30; <br>
+``` <br>
+
+**2. Tipos de Dados:** <br>
+JavaScript tem vários tipos de dados, mas os mais comuns são: <br>
+- **Strings** (texto): `'Olá, mundo!'` <br>
+- **Números**: `10`, `3.14` <br>
+- **Booleanos** (verdadeiro/falso): `true`, `false` <br>
+
+**3. Operações:** <br>
+Você pode fazer operações matemáticas com números e concatenar (juntar) strings. <br>
+
+```javascript <br>
+let soma = 10 + 5; // 15 <br>
+let saudacao = 'Olá, ' + nome; // 'Olá, Maria' <br>
+```
+
+**4. Funções:** <br>
+São blocos de código que realizam uma tarefa específica e podem ser chamados várias vezes. <br>
+
+```javascript <br>
+function cumprimentar(pessoa) { <br>
+  return 'Olá, ' + pessoa + '!'; <br>
+} <br>
+console.log(cumprimentar('João')); // 'Olá, João!' <br>
+``` <br>
+
+**5. Condicionais:** <br>
+Usados para tomar decisões no código. O `if` é um exemplo disso. <br>
+
+```javascript <br>
+if (idade >= 18) { <br>
+  console.log('Você é maior de idade.'); <br>
+} else { <br>
+  console.log('Você é menor de idade.'); <br>
+} <br>
+```
+
+**6. Arrays (Listas):**
+Permitem armazenar vários valores em uma única variável.
+
+```javascript
+let frutas = ['maçã', 'banana', 'uva'];
+console.log(frutas[0]); // 'maçã'
+```
+
+**7. Objetos:**
+São coleções de propriedades e métodos.
+
+```javascript
+let pessoa = {
+  nome: 'Carlos',
+  idade: 25,
+  cumprimentar: function() {
+    return 'Olá, meu nome é ' + this.nome;
+  }
+};
+console.log(pessoa.cumprimentar()); // 'Olá, meu nome é Carlos'
+```
+
+Esses são os conceitos básicos para começar a programar em JavaScript. Pratique escrevendo pequenos programas e experimentando com esses conceitos. E lembre-se, a prática leva à perfeição! 👩‍💻🚀
+    </p>
+    <label for="name" id="name">Nome</label>
+    <input type="text" name="name" id="name">
+    <button type="submit" for="Aula2.js">Enviar</button>
+
+    <label for="email" id="email">Email</label>
+    <input type="text" name="email" id="email">
+    
+    <script src="Aula2.js"></script>
+</body>
+</html>

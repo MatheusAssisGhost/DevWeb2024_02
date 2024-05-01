@@ -1,0 +1,70 @@
+@charset 'utf-08';
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(bg.png);
+}
+
+.div_header{
+    background-color: rgba(137, 43, 226, 0.501);
+    width: 60vw;
+    height: 40vh;
+    border-radius: 20px;
+    margin: 2vh auto 2vh auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5vh auto 5vh auto;
+    width: 70vw;
+    background-image: linear-gradient(to bottom right, rgba(128, 0, 128, 0.514), rgba(0, 0, 139, 0.497), pink);
+    padding: 5%;
+    border-radius: 30px;
+}
+
+.select_weapons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 5vh auto 5vh auto;
+    background-color: rgba(250, 235, 215, 0.551);
+    padding: 2vw;
+    border-radius: 30px;
+}
+
+button{
+    border-radius: 40%;
+}
+
+button:hover{
+    transform: scale(110%);
+    box-shadow: 3px 3px 5px white;
+}
+
+.sword{
+    width: 200px;
+    border-radius: 40%;
+}
