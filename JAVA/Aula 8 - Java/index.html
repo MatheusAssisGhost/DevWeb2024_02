@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -15,6 +16,17 @@
         <input type="email" id="email" placeholder="E-mail">
         <textarea id="observacao" placeholder="Observação"></textarea>
         <input type="button" value="Enviar" onclick="enviarFormulario()">
+    </form>
+
+    <form action="" id="FormIMC">
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name">
+        <label for="peso">Peso:</label>
+        <input type="number" name="peso" id="peso">
+        <label for="altura">Altura:</label>
+        <input type="number" name="altura" id="altura">
+        <input type="button" value="Enviar" onclick="enviar()">
+
     </form>
 
     <script src="java.js"></script>

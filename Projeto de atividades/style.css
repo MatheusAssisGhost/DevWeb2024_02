@@ -10,7 +10,7 @@ body{
     background-image: url(bg5.jpg);
     background-size: 100%;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
 }
 
 .div_header{
@@ -58,6 +58,7 @@ body{
     width: 70%;
     overflow: hidden;
     margin: auto;
+    border-radius: 20px;
   }
   .carousel-item {
     flex: 0 0 auto;
@@ -80,19 +81,34 @@ body{
         transform: translateX(-200%);
     }
 
-    25%{
+    11%{
         transform: translateX(-100%);
     }
 
-    50%{
+    21%{
         transform: translateX(-100%);
     }
 
-    75%{
+    31%{
         transform: translateX(0%);
     }
 
+    41%{
+        transform: translateX(0%);
+    }
+
+    51%{
+        transform: translateX(-100%);
+    }
+
+    61%{
+        transform: translateX(-100%);
+    }
+
+    71%{
+        transform: translateX(-200%);
+    }
     100%{
-        transform: translateX(0%);
+        transform: translateX(-200%);
     }
   }
